@@ -1,0 +1,162 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/screen.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+/* line 15, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}
+/* line 18, ../sass/screen.scss */
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 23, ../sass/screen.scss */
+.section {
+  padding: 80px 0 110px;
+  text-align: center;
+  background: #f6f9f9;
+}
+
+/* line 30, ../sass/screen.scss */
+#header {
+  padding: 40px 0;
+}
+/* line 33, ../sass/screen.scss */
+#header .logo {
+  margin: 0 25px;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+/* line 39, ../sass/screen.scss */
+#header .logo a {
+  color: #2d3950;
+}
+/* line 42, ../sass/screen.scss */
+#header .logo a:hover {
+  color: #15a4fa;
+}
+
+/* line 50, ../sass/screen.scss */
+.banner-section {
+  overflow: hidden;
+  padding: 0;
+  color: #ffffff;
+  background: #ffffff url("../img/banner-bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+/* line 57, ../sass/screen.scss */
+.banner-section h1 {
+  display: inline-block;
+  margin-top: 15%;
+  margin-bottom: 3%;
+  padding: 0 10%;
+  font-size: 8em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #15a4fa;
+}
+/* line 68, ../sass/screen.scss */
+.banner-section p {
+  font-size: 1.33em;
+  margin-bottom: 4%;
+}
+/* line 72, ../sass/screen.scss */
+.banner-section p span {
+  text-transform: uppercase;
+}
+/* line 77, ../sass/screen.scss */
+.banner-section a {
+  color: #ffffff;
+}
+/* line 80, ../sass/screen.scss */
+.banner-section a.scrolling {
+  display: inline-block;
+  margin-bottom: 10%;
+  padding: 0 30px;
+  font-size: 1.2em;
+  line-height: 3em;
+  border: 1px solid #15a4fa;
+}
+/* line 89, ../sass/screen.scss */
+.banner-section a.icon {
+  display: block;
+  margin-bottom: 5%;
+}
+/* line 93, ../sass/screen.scss */
+.banner-section a.icon .fa {
+  font-size: 2.3em;
+}

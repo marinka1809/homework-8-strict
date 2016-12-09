@@ -4,15 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
-
-
-    <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
-
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="https://use.fontawesome.com/95a5ddb753.js"></script>
 
+    <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -25,28 +20,26 @@
 
     <link href="stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
 
-    <script src="js/js.js"></script>
-
     <title>homework 7</title>
 </head>
 <body>
     <header id="header">
         <div class="container">
-            <h1>
+            <h1 class="logo">
                 <a href="#index.html">
-                    <img src="/img/logo-img.png" alt="Logo strict">
-                    Strict
+                    <img src="img/logo-img.png" alt="Logo strict">
+                    <span>Strict</span>
                 </a>
             </h1>
         </div>
     </header>
-    <section class="banner-section">
+    <section class="banner-section section">
         <h1>Strict</h1>
         <p><span>Strict</span> is a responsive theme with a a clean and minimal look.</p>
-        <a href="">Call to action</a>
-        <i class="fa fa-angle-down" aria-hidden="true"></i>
+        <a class="scrolling" href="" >Call to action</a>
+        <a class="icon" href=""><i class="fa fa-angle-down" aria-hidden="true"></i></a>
     </section>
-    <section class="info-section">
+    <section class="info-section section">
         <div class="container">
             <h2>Simple & pure design.</h2>
             <p>
@@ -57,7 +50,7 @@
             </p>
         </div>
     </section>
-    <section class="feature-section">
+    <section class="feature-section section">
         <div class="container">
             <ul class="row">
                <li>
@@ -81,61 +74,61 @@
             </ul>
         </div>
     </section>
-    <section class="portfolio-section">
+    <section class="portfolio-section section">
         <div class="container">
             <header class="section-header">
                 <h1>Showcase your work like a pro.</h1>
                 <p>Contact me if you like my work</p>
             </header>
             <ul class="row portfolio">
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-01.jpg" alt="Bicycle and cars.">
+                        <img class="img-responsive" src="img/portfolio-01.jpg" alt="Bicycle and cars.">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-02.jpg" alt="Party girl.">
+                        <img class="img-responsive" src="img/portfolio-02.jpg" alt="Party girl.">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-03.jpg" alt="Cups - two halves of one whole.">
+                        <img class="img-responsive" src="img/portfolio-03.jpg" alt="Cups - two halves of one whole.">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-04.jpg" alt="Green cup and poured tea.">
+                        <img class="img-responsive" src="img/portfolio-04.jpg" alt="Green cup and poured tea.">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-05.jpg" alt="Red bicycle">
+                        <img class="img-responsive" src="img/portfolio-05.jpg" alt="Red bicycle">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="col-sm-6 col-md-6 col-lg-4">
                     <div class="group-container">
-                        <img src="/img/portfolio-06.jpg" alt="Bicycle on street">
+                        <img class="img-responsive" src="img/portfolio-06.jpg" alt="Bicycle on street">
                         <div class="hover-block">
                             <button></button>
                             <button></button>
@@ -145,7 +138,7 @@
             </ul>
         </div>
     </section>
-    <section class="subscribe-section">
+    <section class="subscribe-section section">
         <div class="container">
             <header class="section-header">
                 <h1>Stay with us</h1>
@@ -174,13 +167,15 @@
         </div>
     </section>
     <footer id="footer">
-        <p>Copyritht 2014, STRICT</p>
-        <div class="group-box">
-            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
+        <div class="container">
+            <p>Copyritht 2014, STRICT</p>
+            <div class="group-box">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
