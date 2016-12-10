@@ -86,7 +86,7 @@ a:hover {
 
 /* line 26, ../sass/screen.scss */
 .section {
-  padding: 80px 0 110px;
+  padding: 40px 0 50px;
   text-align: center;
   background: #f6f9f9;
 }
@@ -101,36 +101,48 @@ a:hover {
   margin-bottom: 50px;
 }
 
-/* line 42, ../sass/screen.scss */
-#header {
-  padding: 40px 0;
+@media screen and (min-width: 768px) {
+  /* line 43, ../sass/screen.scss */
+  .section {
+    padding: 80px 0 100px;
+  }
 }
-/* line 45, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
+#header {
+  padding: 20px 0;
+}
+/* line 51, ../sass/screen.scss */
 #header .logo {
   margin: 0 25px;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: bold;
 }
-/* line 51, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 #header .logo a {
   color: #2d3950;
 }
-/* line 54, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 #header .logo a img {
   float: left;
   margin-right: 15px;
 }
-/* line 59, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 #header .logo a:hover {
   color: #15a4fa;
 }
-/* line 63, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 #header .logo a span {
   line-height: 1.2em;
 }
 
-/* line 73, ../sass/screen.scss */
+@media screen and (min-width: 768px) {
+  /* line 77, ../sass/screen.scss */
+  #header {
+    padding: 40px 0;
+  }
+}
+/* line 83, ../sass/screen.scss */
 .banner-section {
   overflow: hidden;
   padding: 0;
@@ -138,31 +150,31 @@ a:hover {
   background: #ffffff url("../img/banner-bg.jpg") 50% 50% no-repeat;
   background-size: cover;
 }
-/* line 80, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .banner-section h1 {
   display: inline-block;
-  margin-top: 15%;
-  margin-bottom: 3%;
-  padding: 0 10%;
-  font-size: 8em;
+  margin-top: 25%;
+  margin-bottom: 8%;
+  padding: 0 5%;
+  font-size: 5em;
   line-height: 1.2em;
   text-transform: uppercase;
   border-bottom: 2px solid #15a4fa;
 }
-/* line 91, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .banner-section p {
-  font-size: 1.33em;
-  margin-bottom: 4%;
+  font-size: 1.2em;
+  margin-bottom: 8%;
 }
-/* line 95, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .banner-section p span {
   text-transform: uppercase;
 }
-/* line 100, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .banner-section a {
   color: #ffffff;
 }
-/* line 103, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .banner-section a.scrolling {
   display: inline-block;
   margin-bottom: 10%;
@@ -171,35 +183,53 @@ a:hover {
   line-height: 3em;
   border: 1px solid #15a4fa;
 }
-/* line 112, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .banner-section a.icon {
   display: block;
   margin-bottom: 5%;
 }
-/* line 116, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .banner-section a.icon .fa {
   font-size: 2.3em;
 }
 
-/* line 126, ../sass/screen.scss */
+@media screen and (min-width: 768px) {
+  /* line 135, ../sass/screen.scss */
+  .banner-section h1 {
+    margin-top: 15%;
+    margin-bottom: 3%;
+    padding: 0 10%;
+    font-size: 8em;
+  }
+  /* line 142, ../sass/screen.scss */
+  .banner-section p {
+    font-size: 1.33em;
+    margin-bottom: 4%;
+  }
+}
+/* line 152, ../sass/screen.scss */
 .info-section h2 {
   margin-bottom: 30px;
   font-size: 2.6em;
   color: #2d3950;
 }
-/* line 132, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .info-section p {
   padding: 0 25px;
   font-size: 1.33em;
   line-height: 1.6em;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .feature-section {
-  padding: 60px 0;
+  padding: 30px 0 20px;
   background: #ffffff;
 }
-/* line 144, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
+.feature-section li {
+  margin-bottom: 10%;
+}
+/* line 174, ../sass/screen.scss */
 .feature-section .icon-wrapper {
   position: relative;
   display: inline-block;
@@ -210,48 +240,58 @@ a:hover {
   border-radius: 2px;
   text-align: center;
 }
-/* line 154, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .feature-section .icon-wrapper .fa {
   padding: 30px 0;
   color: #ffffff;
   font-size: 40px;
 }
-/* line 160, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .feature-section .icon-wrapper .fa-mobile {
   padding: 20px 0;
   font-size: 60px;
 }
-/* line 166, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .feature-section h2 {
   margin-bottom: 25px;
   color: #2d3950;
   font-size: 1.4em;
 }
-/* line 172, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .feature-section p {
   padding: 0 30px;
   line-height: 1.4em;
 }
 
-/* line 182, ../sass/screen.scss */
+@media screen and (min-width: 768px) {
+  /* line 209, ../sass/screen.scss */
+  .feature-section {
+    padding: 60px 0 40px;
+  }
+  /* line 212, ../sass/screen.scss */
+  .feature-section li {
+    margin-bottom: 2%;
+  }
+}
+/* line 222, ../sass/screen.scss */
 .portfolio-section .section-header h1 {
   color: #2d3950;
 }
-/* line 187, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .portfolio-section li {
   margin-bottom: 2%;
 }
-/* line 190, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .portfolio-section li:hover .hover-block {
   display: block;
 }
-/* line 195, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 .portfolio-section .group-container {
   position: relative;
   overflow: hidden;
   border-radius: 3px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .portfolio-section .hover-block {
   display: none;
   position: absolute;
@@ -262,23 +302,23 @@ a:hover {
   text-align: center;
   background-color: rgba(21, 164, 250, 0.9);
 }
-/* line 211, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .portfolio-section .hover-block .hover-table {
   display: table;
   width: 100%;
   height: 100%;
 }
-/* line 217, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .portfolio-section .hover-block .hover-cell {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
-/* line 223, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .portfolio-section .hover-block .group-box {
   display: inline-block;
 }
-/* line 227, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .portfolio-section .hover-block .zoom,
 .portfolio-section .hover-block .link {
   float: left;
@@ -293,39 +333,39 @@ a:hover {
   border: 1px solid #ffffff;
   border-radius: 2px;
 }
-/* line 242, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .portfolio-section .hover-block .zoom {
   margin-right: 5px;
 }
-/* line 246, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .portfolio-section .hover-block .link {
   font-size: 20px;
 }
 
-/* line 253, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .subscribe-section {
   background: url("../img/subscribe-section-bg.jpg") 50% 50% no-repeat;
   background-size: cover;
 }
-/* line 257, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .subscribe-section .opacity-bg {
   background: rgba(45, 57, 80, 0.9);
 }
-/* line 262, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .subscribe-section .section-header h1 {
   color: #ffffff;
 }
 
-/* line 267, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .subscribe-form {
   overflow: hidden;
   text-align: left;
 }
-/* line 272, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 .subscribe-form ul li {
   margin-bottom: 20px;
 }
-/* line 275, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .subscribe-form ul li input,
 .subscribe-form ul li textarea {
   width: 100%;
@@ -335,25 +375,25 @@ a:hover {
   border: 1px solid #999999;
   border-radius: 2px;
 }
-/* line 286, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox {
   float: left;
 }
-/* line 289, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox + label {
   cursor: pointer;
 }
-/* line 293, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:not(checked) {
   position: absolute;
   opacity: 0;
 }
-/* line 298, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:not(checked) + label {
   position: relative;
-  padding: 0 0 0 35px;
+  padding: 0 0 0 25px;
 }
-/* line 303, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:not(checked) + label:before {
   content: '';
   position: absolute;
@@ -364,7 +404,7 @@ a:hover {
   background: #999fa9;
   border-radius: 2px;
 }
-/* line 314, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:not(checked) + label:after {
   content: '';
   position: absolute;
@@ -376,42 +416,47 @@ a:hover {
   border-radius: 2px;
   opacity: 0;
 }
-/* line 327, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:checked + label:after {
   opacity: 1;
 }
-/* line 331, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .subscribe-form .subscribe-checkbox:focus + label:before {
   box-shadow: 0 0 0 2px rgba(21, 164, 250, 0.63);
 }
-/* line 336, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .subscribe-form label {
   float: left;
 }
-/* line 340, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 .subscribe-form .botton-send {
   float: right;
-  padding: 10px 40px;
+  padding: 10px 25px;
   color: #ffffff;
   background: transparent;
   border: 1px solid #15a4fa;
   border-radius: 2px;
 }
 
-/* line 351, ../sass/screen.scss */
+@media screen and (min-width: 768px) {
+  /* line 393, ../sass/screen.scss */
+  .subscribe-form .subscribe-checkbox:not(checked) + label {
+    padding: 0 0 0 35px;
+  }
+  /* line 397, ../sass/screen.scss */
+  .subscribe-form .botton-send {
+    padding: 10px 40px;
+  }
+}
+/* line 403, ../sass/screen.scss */
 #footer {
   padding: 25px 0;
 }
-/* line 354, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 #footer p {
-  float: left;
   line-height: 2.5em;
 }
-/* line 358, ../sass/screen.scss */
-#footer .group-box {
-  float: right;
-}
-/* line 361, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 #footer .group-box .fa {
   display: inline-block;
   width: 40px;
@@ -421,7 +466,22 @@ a:hover {
   background: #15a4fa;
   border-radius: 2px;
 }
-/* line 371, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 #footer .group-box .fa-facebook {
   padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 429, ../sass/screen.scss */
+  #footer {
+    padding: 15px 0;
+  }
+  /* line 432, ../sass/screen.scss */
+  #footer p {
+    float: left;
+  }
+  /* line 436, ../sass/screen.scss */
+  #footer .group-box {
+    float: right;
+  }
 }
