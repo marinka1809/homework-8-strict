@@ -18,9 +18,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.css">
-
     <link href="stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
 
     <title>homework 7</title>
@@ -39,10 +36,10 @@
     <section class="banner-section section">
         <h1>Strict</h1>
         <p><span>Strict</span> is a responsive theme with a a clean and minimal look.</p>
-        <a class="scrolling" href="#info-section" >Call to action</a>
-        <a class="icon" href="#info-section"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        <a class="scrolling" href="" >Call to action</a>
+        <a class="icon" href=""><i class="fa fa-angle-down" aria-hidden="true"></i></a>
     </section>
-    <section class="info-section section" id="info-section">
+    <section class="info-section section">
         <div class="container">
             <h2>Simple & pure design.</h2>
             <p>
@@ -97,10 +94,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-01.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-01.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -116,10 +113,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-02.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-02.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -135,10 +132,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-03.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-03.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -154,10 +151,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-04.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-04.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -173,10 +170,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-05.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-05.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -192,10 +189,10 @@
                             <div class="hover-table">
                                 <div class="hover-cell">
                                     <div class="group-box">
-                                        <a class="zoom" data-toggle="lightbox" href="img/portfolio-06.jpg">
+                                        <button class="zoom">
                                             <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                        </a>
-                                        <a class="link" href="img/portfolio-06.jpg">
+                                        </button>
+                                        <a class="link" href="">
                                             <i class="fa fa-link" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -249,11 +246,5 @@
             </div>
         </div>
     </footer>
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
-    </script>
 </body>
 </html>
