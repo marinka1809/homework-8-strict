@@ -53,7 +53,7 @@
     <section class="feature-section section">
         <div class="container">
             <ul class="row">
-               <li>
+               <li class="col-sm-6 col-lg-4">
                    <i class="fa fa-mobile" aria-hidden="true"></i>
                    Optimized for all devices
                    <p>
@@ -61,12 +61,12 @@
                        has been designed to be fully responsive on all devices
                    </p>
                </li>
-                <li>
+                <li class="col-sm-6 col-lg-4">
                     <i class="fa fa-telegram" aria-hidden="true"></i>
                     Clean & Minimal Design
                     <p>This multipurpose theme is especially created to be used for different projects.</p>
                 </li>
-                <li>
+                <li class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-0">
                     <i class="fa fa-bullhorn" aria-hidden="true"></i>
                     Font Awesome Icon
                     <p>This multipurpose theme is especially created to be used for different projects.</p>
@@ -138,30 +138,34 @@
             </ul>
         </div>
     </section>
-    <section class="subscribe-section section">
-        <div class="container">
-            <header class="section-header">
-                <h1>Stay with us</h1>
-                <p>We ensure quailty & support</p>
-            </header>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                    <form action="index.html" method="get" class="send-contact">
-                        <ul>
-                            <li>
-                                <input type="text" name="first-name" placeholder="Name">
-                            </li>
-                            <li>
-                                <input type="email" name="email" placeholder="Email Address">
-                            </li>
-                            <li>
-                                <textarea name="coments" rows="5" cols="30" placeholder="Message"></textarea>
-                            </li>
-                        </ul>
-                        <label for="subscribe">Subscribe Newsletter</label>
-                        <input type="checkbox" name="subscribe" value="true" id="subscribe">
-                        <input type="submit" name="botton-send" value="Send">
-                    </form>
+    <section class="subscribe-section ">
+        <div class="opacity-bg section">
+            <div class="container">
+                <header class="section-header">
+                    <h1>Stay with us</h1>
+                    <p>We ensure quailty & support</p>
+                </header>
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                        <form action="index.html" method="get" class="subscribe-form">
+                            <ul>
+                                <li>
+                                    <input type="text" name="first-name" placeholder="Name">
+                                </li>
+                                <li>
+                                    <input type="email" name="email" placeholder="Email Address">
+                                </li>
+                                <li>
+                                    <textarea name="coments" rows="5" cols="30" placeholder="Message"></textarea>
+                                </li>
+                            </ul>
+                            <label for="subscribe">
+                                <input type="checkbox" name="subscribe" value="true" id="subscribe" class="subscribe-checkbox">
+                                Subscribe Newsletter
+                            </label>
+                            <input type="submit" name="botton-send" value="Send" class="botton-send">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
