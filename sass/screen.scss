@@ -246,7 +246,7 @@ a {
     right: 0;
     bottom: 0;
     text-align: center;
-    background-color: rgba(21, 164, 250, 0.9);
+    background-color: rgba(21, 164, 250, 0.9); /*используй либо hex либо rgb*/
 
     .hover-table {
       display: table;
@@ -366,7 +366,7 @@ a {
 
       &:checked + label:after {
         opacity:1;
-      }
+      }/*посмотри как выглядит отмеченный чекбокс*/
 
       &:focus + label:before {
         box-shadow: 0 0 0 2px rgba(21, 164, 250, 0.63);
